@@ -1,3 +1,67 @@
 .message {
+    display: flex;
+    background-color: seagreen;
+    padding: 5px;
+    width: 500px;
+    min-height: 100px;
+}
+
+.message img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.leftColumn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 15%;
+}
+
+.rightColumn {
+    width: 85%;
+}
+
+.messageArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: sandybrown;
+    border-radius: 5px;
+    padding: 5px 15px;
+    height: 90%;
+    position: relative;
+}
+
+.messageArea:before {
+    position: absolute;
+    content: "";
+    left: -6px;
+    bottom: 4px;
+    transform: scaleY(0.5) rotate(
+            45deg);
+    width: 17px;
+    height: 18px;
+    background-color: sandybrown;
+}
+
+
+.firstName {
+    color: seagreen;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.messageData {
+    display: flex;
+    justify-content: space-between;
+}
+
+.messageText {
 
 }
+
+.messageTime {
+    color: gray;
+}
+
