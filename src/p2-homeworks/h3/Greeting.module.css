@@ -1,7 +1,11 @@
-.someClass {
-
+.inputClass {
+    border: 1px solid black;
 }
 
 .error {
     border: 1px solid red;
+}
+
+.errorText {
+    color: red;
 }

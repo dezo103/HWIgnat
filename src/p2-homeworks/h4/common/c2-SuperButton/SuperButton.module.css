@@ -1,7 +1,32 @@
+.button {
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+    background-color: #8bb7f0;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+}
+
+.button:hover {
+    border: 2px solid white;
+    transition: 0.2s all ease-in;
+}
+
+.button:disabled {
+    border: none;
+    cursor: no-drop;
+}
+
+.button:active {
+    background-color:  white;
+}
+
 .default {
 
 }
 
 .red {
-    background: red;
+    background: #f27c88;
+    border: 2px solid transparent;
 }

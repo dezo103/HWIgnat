@@ -1,5 +1,17 @@
 .checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #8bb7f0;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.checkbox:checked {
+    appearance: none;
+    background-image: url("checkbox.svg");
+    background-size: 30px 30px;
+    background-position: -7px -7px;
 }
 
 .spanClassName {
