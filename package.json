@@ -1,5 +1,5 @@
 {
-  "name": "simple-react-homeworks",
+  "name": "HWIgnat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,7 @@
     "typescript": "~3.7.2",
     "uuid": "^8.3.2"
   },
-  "homepage": "https://dezo103.github.io/IgnatHW",
+  "homepage": "https://dezo103.github.io/HWIgnat",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
